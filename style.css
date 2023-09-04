@@ -1,0 +1,93 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 734px;
+}
+.gradient-background2{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 305px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.but button{
+  color: white;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.but button:hover{
+  background-color: black;
+}
+.box{
+  margin-right: 108px;
+}
+.box svg{
+    height: 32px;
+    margin-right: 17px;
+}
+.banner{
+  margin-top: 80px;
+  text-align: center;
+}
+h2{
+  font-size: 2rem;
+}
+.banner img{
+  border-radius: 50%;
+  height: 150px;
+}
+.brands{
+  display: flex;
+  justify-content: space-evenly;
+}
+.brands img {
+  height: 30px;
+}
+.body{
+  
+  margin-left: 163px;
+  margin-right: 161px;
+
+}
+.new button{
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.new1 button{
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.new1 button:hover{
+    background-color: black;
+}
+.black{
+    background-color: black;
+
+}
